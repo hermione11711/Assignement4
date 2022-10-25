@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="front.css" />
+
+
+    <script ></script>
+    <title>Document</title>
+</head>
+<body>
+    <form class="form_log_in" onsubmit="return false">
+        <div class="form">
+            <div class="title1">Welcome</div>
+        </div>
+        <div class="CustomerID">
+            <label>CustomerID</label>
+            <input type="text" class="field" name="Name" id="ID" >
+        </div>
+        <div class="First_name">
+            <label>First Name</label>
+            <input type="text" class="field" name="Name" id="firstname"  >
+        </div>
+        <div class="Last_name">
+            <label>Last Name</label>
+            <input type="text" class="field" name="Name" id="lastname"  >
+        </div>
+        <div class="email">
+            <label>Email Address</label>
+            <input type="email" class="field" name="Email" id="email"   />
+        </div>
+        <div class="password">
+            <label for="password">Password</label>
+            <input type="password" class="field" name="password" id="password"  />
+        </div>
+        <!-- <div class="confirm-password">
+            <label for="password">Confirm password</label>
+            <input type="password" class="field" name="confirm-password" id="password2" minlength="6" required>
+        </div> -->
+        <div class="buton">
+        <div class="subcribe">
+            <button class="submit" onclick="registere()">Insert </button>
+            <p id="demo"></p>
+        </div>
+        <div class="subcribe">
+            <button class="submit" onclick="select()">Select </button>
+            <p id="demo2"></p>
+        </div>
+        <div class="subcribe">
+            <button class="submit" onclick="update()">Update </button>
+            <p id="demo3"></p>
+        </div>
+        <div class="subcribe">
+            <button class="submit" onclick="delet()">Delete </button>
+            <p id="demo4"></p>
+    </div> 
+    </form>
+</body>
+<script  src="insert.js"></script>
+<script  src="delete.js"></script>
+<script  src="select.js"></script>
+<script  src="update.js"></script>
+</html>

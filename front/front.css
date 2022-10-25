@@ -1,0 +1,171 @@
+body {
+
+    Font-family: Cambria;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url(sign-in.png);
+}
+
+header{
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    position: inherit;
+}
+
+.form_log_in{
+    position: relative;
+    margin: 200px 0;
+    left: 40%;
+}
+
+
+form.form_log_in {
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 550px;
+    padding: 20px;
+    width: 320px;
+    z-index: 2;
+
+
+}
+
+.title1 {
+    color: white;
+    Font-family: Cambria;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.subtitle {
+    color: white;
+    Font-family: Cambria;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.First_name {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+    color: white;
+
+}
+.Last_name {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+    color: white;
+
+}
+
+.email {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+    color: white;
+
+}
+.CustomerID{
+    color: #eee;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+    color: white;
+}
+
+.password {
+    color: #eee;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+    color: white;
+
+}
+
+.confirm-password {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+    color: white;
+
+}
+
+.field {
+    border: 0;
+    z-index: 1;
+    background-color: white;
+    border-bottom: 2px solid #eee;
+    font: inherit;
+    font-size: 1.125rem;
+    padding: .25rem 0;
+}
+
+
+.submit {
+    Font-family: Cambria;
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    margin-right: 15px;
+    outline: 0;
+    text-align: center;
+
+}
+
+
+
+
+.buton{
+    display: flex;
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:1000px){
+    .form_log_in{
+
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width:800px) {
+    .form_log_in{
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width:600px){
+    .form_log_in{
+        left: 25%;
+    }
+}
+@media screen and (max-width: 600px) and (min-width:400px){
+    .form_log_in{
+        left: 20%;
+    }
+}
+
+
+
